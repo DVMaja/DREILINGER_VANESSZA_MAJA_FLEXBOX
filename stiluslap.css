@@ -1,1 +1,67 @@
 
+* {
+    padding: 0;
+    margin: 0;
+}
+main, header, nav, article, footer, section {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+article h2 {
+    background-color: rgb(172, 4, 4);
+    color: lightgray;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+section p {
+    text-indent: 10px;
+}
+header {
+    color: lightslategray;
+}   
+
+/*FLEXBOX*/
+main {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+article {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;      
+}
+
+section {
+    text-align: justify;
+    padding: 5px;
+    flex: 1 1 200px;
+    background-color: rgb(123, 121, 121);
+    color: lightgray;
+}
+nav ul{
+    display: flex;
+    
+
+}
+
+/*
+.item {
+    order: 1;
+}
+*/
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul a {
+    text-decoration: none;
+}
