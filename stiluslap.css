@@ -52,6 +52,21 @@ nav ul{
     
 
 }
+footer {
+    height: 40px;
+    padding: 10px;
+    
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    gap: 10px;
+    
+}
+footer a {
+    color: brown;
+}
 
 /*
 .item {
