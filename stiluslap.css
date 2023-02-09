@@ -47,9 +47,23 @@ section {
     background-color: rgb(123, 121, 121);
     color: lightgray;
 }
-nav ul{
+
+nav {
     display: flex;
     
+}
+nav ul{    
+    padding: 5px;
+    font-weight: bold;
+}
+.elso {    
+    background-color: rgb(172, 8, 8);
+    justify-content: flex-start;
+    
+}
+.masodik {
+    display: flex;
+    justify-content: flex-end; 
 
 }
 footer {
@@ -61,7 +75,7 @@ footer ul {
     display: flex;
     justify-content: center;
     border: 1px solid gray;
-    gap: 10px;
+    gap: 10px; 
     
 }
 footer a {
